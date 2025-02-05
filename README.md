@@ -1,16 +1,16 @@
 
 1. Clone this repository.
 2. Update `terraform.tfvars` with your configuration:
-   aws_region    = <region>
-   cluster_name  = <cluster name>
-   vpc_id        = <existing vpc id>
-   subnet_ids    = [<subnet1>, <subnet2>]
+      aws_region    = <region>
+      cluster_name  = <cluster name>
+      vpc_id        = <existing vpc id>
+      subnet_ids    = [<subnet1>, <subnet2>]
 
     Initialize and apply the Terraform configuration:
 
-    terraform init
-    terraform plan
-    terraform apply
+       terraform init
+       terraform plan
+       terraform apply
 
 3. Deploying Workloads
 
